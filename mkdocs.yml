@@ -1,0 +1,44 @@
+site_name: iPaaS Marketing Site Content
+site_description: Content development for our iPaaS marketing website
+repo_url: https://github.com/yourusername/your-content-site
+repo_name: your-content-site
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - About: about.md
+  - Features:
+    - Overview: features/index.md
+    - Integrations: features/integrations.md
+  - Pricing: pricing.md
+  - Resources:
+    - Case Studies: resources/case-studies.md
+    - Blog: resources/blog.md
+
+# Theme configuration
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized
+
+# Markdown extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
