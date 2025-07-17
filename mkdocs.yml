@@ -5,7 +5,8 @@ repo_name: your-content-site
 
 # Navigation structure
 nav:
-  - Home: index.md
+  - Home: homepage.md 
+  - Home2: index.md
   - About: about.md
   - Features:
     - Overview: features/index.md
